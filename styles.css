@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&family=Source+Code+Pro:ital,wght@0,700;1,200;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&family=Source+Code+Pro:ital,wght@1,200;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    padding-inline: 45;
+}
+
+.sidebar{
+    background-color: rgb(136 135 135);
+    width: 28vw;
+    height: 100vh;
+    font-family: 'Source Code Pro', monospace;
+}
+.sidebar nav{
+    padding: 30px;
+}
+.infoaboutuser{
+    font-size: 17px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 45px;
+    
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.main{
+    background-color: white;
+    width: 84vw;
+
+}
+.infocontainer{
+    margin: 69px auto;
+    background-color: rgb(136 135 135);
+    height: 53vh;
+    width: 66vw;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.container{
+    display:flex;
+}
+.devinfo {
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+.info{
+    font-size: 35px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.buttons{
+    margin-top: 35px;
+}
+.buttons button{
+    padding: 9px 9px;
+    border-radius: 11px 11px;
+    font-weight: bold;
+    background-color: grey;
+    color: whitesmoke;
+    margin:0px 3px;
+    font-family: 'Source Code Pro', monospace;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.devpicture img{
+    width: 415px;
+    height: 482px;
+}
+
+.profileofuser button{
+    padding: 10px ;
+    border-radius: 11px 11px;
+    font-weight: bold;
+    font-size: large;
+    background-color: grey;
+    color: whitesmoke;
+    margin:65px;
+    font-family: 'Source Code Pro', monospace;
+    cursor: pointer;
+    
+}
+
+.profileofuser button:hover{
+    background-color: white;
+    color: black;
+
+
+}
+
+.secontainer{
+
+    margin: 224px auto;
+    background-color: rgb(136 135 135);
+    height: 20.1vh;
+    width: 64vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.contactheder{
+   
+    margin-right: auto;
+    background-color:  rgb(136 135 135);
+    font-size: x-large;
+    font-weight: bolder;
+    width: 8vw;
+
+}
